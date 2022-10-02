@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(58, 15, 99);
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.container{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 22px;
+    background-color: rgb(12, 12, 54);
+    border-radius: 15px;
+}
+.title{
+    font-size: 39px;
+    color: rgb(104, 187, 21);
+}
+.value{
+    font-size: 50px;
+    margin: 20px;
+    color: #fffc40;
+}
+.btns{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    font-size: 35px;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 50%;
+    background-color: rgb(101, 101, 236);
+    color: #e6e338;
+}
